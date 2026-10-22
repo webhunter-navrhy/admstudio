@@ -146,3 +146,9 @@ address { font-style: normal; margin-bottom: 1rem; }
   .cmyk { order: 0; width: min(60%, 14rem); }
   .ref { grid-template-columns: repeat(2, 1fr); }
 }
+
+.sluzby p { font-size: 1rem; line-height: 1.6; color: #2b3345; max-width: 38rem; }
+.ref img { height: 40px; mix-blend-mode: multiply; filter: grayscale(1) contrast(1.1) brightness(.9); opacity: .8; }
+.ref img[src*="ekf"] { height: 64px; }
+.ref img[src*="mearing"] { filter: grayscale(1) brightness(1.6); }
+@media (max-width: 52rem) { .ref img { height: 32px; } .ref img[src*="ekf"] { height: 52px; } }
