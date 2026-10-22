@@ -1,0 +1,54 @@
+{
+  "slug": "admstudio",
+  "nazev": "ADM REPRO studio",
+  "url": "https://webhunter-navrhy.github.io/admstudio/",
+  "base": "/admstudio/",
+  "lang": "cs",
+  "popis": "Digitální tisk a kopírování v centru Ostravy: závěrečné práce, vazby, velkoformátový tisk, razítka a potisk triček. Zahradní 1471/1.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "logo-og.png",
+  "logo": "logo.png",
+  "theme_color": "#f7f6f2",
+  "typ": "LocalBusiness",
+  "ico": "",
+  "kontakt": {
+    "email": "info@admstudio.cz",
+    "telefon": "+420 602 714 376",
+    "adresa": {
+      "ulice": "Zahradní 1471/1",
+      "psc": "702 00",
+      "mesto": "Ostrava – Moravská Ostrava",
+      "zeme": "CZ"
+    }
+  },
+  "oteviraci_doba": [
+    "Mo-Th 09:00-16:00",
+    "Fr 09:00-15:00"
+  ],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Poptávka z webu ADM REPRO studio"
+  },
+  "nav": [
+    {
+      "text": "Závěrečné práce",
+      "href": "#prace"
+    },
+    {
+      "text": "Služby",
+      "href": "#sluzby"
+    },
+    {
+      "text": "Reference",
+      "href": "#reference"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}

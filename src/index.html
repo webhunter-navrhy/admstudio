@@ -1,0 +1,101 @@
+{% extends "_base.html" %}
+{% set titulek = 'Digitální tisk a kopírování v centru Ostravy | ADM REPRO studio' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="stitek">Digitální tisk od roku 2000 · Ostrava</p>
+      <h1>Tisk a kopírování <span>v centru Ostravy</span></h1>
+      <p class="uvod">Vizitky, plakáty, výkresy, razítka a hlavně závěrečné práce. Malá tiskárna na Zahradní ulici, kde se o vaši zakázku postará člověk, ne fronta.</p>
+      <div class="tlacitka">
+        <a class="tl tl-hlavni" href="https://www.admstudio.cz/online-objednavka/" rel="noopener">Objednat online</a>
+        <a class="tl" href="#kontakt">Kontakt a otevírací doba</a>
+      </div>
+    </div>
+    <div class="cmyk" aria-hidden="true">
+      <i class="k-c"></i><i class="k-m"></i><i class="k-y"></i><i class="k-k"></i>
+      <b class="reg"></b>
+    </div>
+  </div>
+</section>
+
+<section class="sekce prace" id="prace">
+  <div class="wrap">
+    <p class="stitek">Naše specialita</p>
+    <h2>Závěrečné práce</h2>
+    <div class="prace-grid">
+      <div class="prace-cisla">
+        <div class="cislo"><strong>35 000+</strong><span>vyrobených závěrečných prací</span></div>
+        <div class="cislo"><strong>do 14:00</strong><span>objednávka hotová druhý pracovní den</span></div>
+        <div class="cislo"><strong>7 Kč / 1 Kč</strong><span>barevná / černobílá stránka vnitřního obsahu</span></div>
+      </div>
+      <div class="prace-text">
+        <p>Diplomky, bakalářky i disertace vážeme horkou ražbou, nebo potiskneme desky digitálně. Vybereme technologii, kterou vaše fakulta vyžaduje.</p>
+        <p>Objednávku zvládnete online bez návštěvy provozovny, nebo přijďte osobně na Zahradní. Práci umíme vyrobit i na počkání, dokud to dovolí kapacita. Soubor s obsahem nejlépe ve formátu PDF.</p>
+        <a class="tl tl-hlavni" href="https://www.admstudio.cz/online-objednavka/" rel="noopener">Objednat závěrečnou práci</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="sluzby">
+  <div class="wrap">
+    <p class="stitek">Co děláme</p>
+    <h2>Služby</h2>
+    <ul role="list" class="sluzby">
+      {% for s in data.sluzby %}<li class="z-{{ s.znacka }}"><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce jak">
+  <div class="wrap">
+    <h2>Jak to probíhá</h2>
+    <ol role="list" class="kroky">
+      <li><b>1</b><h3>Pošlete soubor</h3><p>Online objednávkou nebo e-mailem. U závěrečných prací nejlépe PDF.</p></li>
+      <li><b>2</b><h3>Vyrobíme</h3><p>Při objednávce do 14:00 bývá hotovo druhý pracovní den, menší věci i na počkání.</p></li>
+      <li><b>3</b><h3>Vyzvednete</h3><p>V centru Ostravy, platit můžete i kartou.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sekce" id="reference">
+  <div class="wrap">
+    <p class="stitek">Reference</p>
+    <h2>Tisknout nám svěřují i firmy</h2>
+    <ul role="list" class="ref">
+      <li>{{ img('ref/mearing.png', 'Mearing', sizes='200px') }}</li>
+      <li>{{ img('ref/ekf.png', 'EKF', sizes='200px') }}</li>
+      <li>{{ img('ref/goldost.png', 'goLDost', sizes='200px') }}</li>
+      <li>{{ img('ref/schneider.jpg', 'Schneider Electric', sizes='200px') }}</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce kontakt" id="kontakt">
+  <div class="wrap kontakt-grid">
+    <div>
+      <p class="stitek">Kontakt</p>
+      <h2>Přijďte, zavolejte, napište</h2>
+      <address>
+        <strong>A.D.M. reprografické studio</strong><br>
+        Martin Rozvadovský<br>
+        Zahradní 1471/1<br>
+        702 00 Ostrava – Moravská Ostrava
+      </address>
+      <p class="kont-radky"><a href="tel:+420602714376">+420 602 714 376</a><br><a href="mailto:info@admstudio.cz">info@admstudio.cz</a></p>
+      <table class="doba">
+        <caption>Otevírací doba</caption>
+        <tr><th>Pondělí – čtvrtek</th><td>9:00–12:00, 12:30–16:00</td></tr>
+        <tr><th>Pátek</th><td>9:00–12:00, 12:30–15:00</td></tr>
+        <tr><th>Sobota, neděle</th><td>zavřeno</td></tr>
+      </table>
+    </div>
+    <div class="form-box">
+      <h3>Cenová poptávka</h3>
+      {% include "_formular.html" %}
+    </div>
+  </div>
+</section>
+{% endblock %}

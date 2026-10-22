@@ -1,0 +1,178 @@
+{
+ "slug": "admstudio",
+ "zdroj_url": "https://www.admstudio.cz",
+ "firma": "ADM REPRO studio",
+ "obor": [
+  "zahrada a venkov",
+  "e-shop / obchod"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "info@admstudio.cz"
+  ],
+  "telefony": [
+   "+420 602 714 376"
+  ],
+  "adresa": "",
+  "socialni_site": []
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://www.admstudio.cz/wp-content/uploads/2020/04/cropped-ADM_Repro_Studio_-_Logo-01-2-150x150.png",
+  "rozmery": [
+   150,
+   150
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#de7b85",
+   "#50b6df",
+   "#0c4da2",
+   "#aa0000",
+   "#ff6900",
+   "#00d084"
+  ],
+  "z_loga": [
+   "#003399",
+   "#46b5df",
+   "#98a9d3"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#003399",
+   "#46b5df",
+   "#de7b85",
+   "#50b6df"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.png",
+   "url": "https://www.admstudio.cz/wp-content/uploads/2020/05/01_mearing_bw.png",
+   "sirka": 1842,
+   "vyska": 428,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-02.png",
+   "url": "https://www.admstudio.cz/wp-content/uploads/2020/05/01_mearing.png",
+   "sirka": 1842,
+   "vyska": 428,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-03.png",
+   "url": "https://www.admstudio.cz/wp-content/uploads/2020/05/05_EKF_bw.png",
+   "sirka": 1266,
+   "vyska": 455,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-04.png",
+   "url": "https://www.admstudio.cz/wp-content/uploads/2020/05/05_EKF.png",
+   "sirka": 1266,
+   "vyska": 455,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-05.png",
+   "url": "https://www.admstudio.cz/wp-content/uploads/2020/05/06_goLDost_bw.png",
+   "sirka": 1833,
+   "vyska": 571,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-06.png",
+   "url": "https://www.admstudio.cz/wp-content/uploads/2020/05/06_goLDost.png",
+   "sirka": 1833,
+   "vyska": 571,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-07.jpg",
+   "url": "https://www.admstudio.cz/wp-content/uploads/2020/05/02_Schneider-Electric-LiO_bw.jpg",
+   "sirka": 1696,
+   "vyska": 354,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-08.jpg",
+   "url": "https://www.admstudio.cz/wp-content/uploads/2020/05/02_Schneider-Electric-LiO.jpg",
+   "sirka": 1696,
+   "vyska": 354,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "NAŠE SLUŽBY",
+   "zdroj": "https://www.admstudio.cz/"
+  },
+  {
+   "typ": "h1",
+   "text": "KDO JSME?",
+   "zdroj": "https://www.admstudio.cz/"
+  },
+  {
+   "typ": "h1",
+   "text": "REFERENCE",
+   "zdroj": "https://www.admstudio.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Nabídka služeb Závěrečné práce MF tisk a kopírování VF tisk a kopírování Skenování Razítka Vazby Potisk triček, hrnků apod. Ostatní služby",
+   "zdroj": "https://www.admstudio.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Nabídka služeb Závěrečné práce MF tisk a kopírování VF tisk a kopírování Skenování Razítka Vazby Potisk triček, hrnků apod. Ostatní služby",
+   "zdroj": "https://www.admstudio.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Nabídka služeb Závěrečné práce MF tisk a kopírování VF tisk a kopírování Skenování Razítka Vazby Potisk triček, hrnků apod. Ostatní služby",
+   "zdroj": "https://www.admstudio.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Začněte psát hledaný výraz výše a stisknutím klávesy Enter vyhledejte. Stisknutím klávesy ESC zrušíte.",
+   "zdroj": "https://www.admstudio.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Tato webová stránka používá soubory cookie, abychom vám mohli poskytovat co nejlepší uživatelský zážitek. Informace o souborech cookie se ukládají ve vašem prohlížeči a plní funkce, jako je rozpoznání, když se vrátíte na náš web, a pomoc našemu týmu pochopit, které části webu považujete za nejzajímavější a nejužitečnější.",
+   "zdroj": "https://www.admstudio.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Nabídka služeb Závěrečné práce MF tisk a kopírování VF tisk a kopírování Skenování Razítka Vazby Potisk triček, hrnků apod. Ostatní služby",
+   "zdroj": "https://www.admstudio.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Tato webová stránka používá soubory cookie, abychom vám mohli poskytovat co nejlepší uživatelský zážitek. Informace o souborech cookie se ukládají ve vašem prohlížeči a plní funkce, jako je rozpoznání, když se vrátíte na náš web, a pomoc našemu týmu pochopit, které části webu považujete za nejzajímavější a nejužitečnější.",
+   "zdroj": "https://www.admstudio.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.",
+   "zdroj": "https://www.admstudio.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "If you disable this cookie, we will not be able to save your preferences. This means that every time you visit this website you will need to enable or disable cookies again.",
+   "zdroj": "https://www.admstudio.cz/"
+  }
+ ],
+ "chybi": [
+  "IČO",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": ""
+}
