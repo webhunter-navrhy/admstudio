@@ -20,31 +20,34 @@
   </div>
 </section>
 
-<section class="sekce prace" id="prace">
+<section class="sekce" id="prace">
   <div class="wrap">
-    <p class="stitek">Naše specialita</p>
-    <h2>Závěrečné práce</h2>
-    <div class="prace-grid">
-      <div class="prace-cisla">
-        <div class="cislo"><strong>35 000+</strong><span>vyrobených závěrečných prací</span></div>
-        <div class="cislo"><strong>do 14:00</strong><span>objednávka hotová druhý pracovní den</span></div>
-        <div class="cislo"><strong>7 Kč / 1 Kč</strong><span>barevná / černobílá stránka vnitřního obsahu</span></div>
+    <article class="list">
+      <p class="stitek">Naše specialita</p>
+      <h2>Závěrečné práce</h2>
+      <div class="list-grid">
+        <div class="list-text">
+          <p>Diplomky, bakalářky i disertace vážeme horkou ražbou, nebo potiskneme desky digitálně. Vybereme technologii, kterou vaše fakulta vyžaduje.</p>
+          <p>Objednávku zvládnete online bez návštěvy provozovny, nebo přijďte osobně na Zahradní. Práci umíme vyrobit i na počkání, dokud to dovolí kapacita. Soubor s obsahem nejlépe ve formátu PDF.</p>
+          <a class="tl tl-hlavni" href="https://www.admstudio.cz/online-objednavka/" rel="noopener">Objednat závěrečnou práci</a>
+        </div>
+        <dl class="spec">
+          <div><dt>Vyrobeno</dt><dd>přes 35 000 závěrečných prací</dd></div>
+          <div><dt>Termín</dt><dd>objednávka do 14:00 hotová druhý pracovní den</dd></div>
+          <div><dt>Vnitřní obsah</dt><dd>7 Kč barevná, 1 Kč černobílá stránka</dd></div>
+          <div><dt>Vazba</dt><dd>horká ražba nebo potištěné desky</dd></div>
+        </dl>
       </div>
-      <div class="prace-text">
-        <p>Diplomky, bakalářky i disertace vážeme horkou ražbou, nebo potiskneme desky digitálně. Vybereme technologii, kterou vaše fakulta vyžaduje.</p>
-        <p>Objednávku zvládnete online bez návštěvy provozovny, nebo přijďte osobně na Zahradní. Práci umíme vyrobit i na počkání, dokud to dovolí kapacita. Soubor s obsahem nejlépe ve formátu PDF.</p>
-        <a class="tl tl-hlavni" href="https://www.admstudio.cz/online-objednavka/" rel="noopener">Objednat závěrečnou práci</a>
-      </div>
-    </div>
+    </article>
   </div>
 </section>
 
-<section class="sekce" id="sluzby">
+<section class="sekce sluzby-sekce" id="sluzby">
   <div class="wrap">
-    <p class="stitek">Co děláme</p>
+    <p class="stitek">Co dalšího děláme</p>
     <h2>Služby</h2>
     <ul role="list" class="sluzby">
-      {% for s in data.sluzby %}<li class="z-{{ s.znacka }}"><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+      {% for s in data.sluzby %}<li class="z-{{ s.znacka }}"><span class="tecka" aria-hidden="true"></span><div><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></div><span class="fmt">{{ s.format }}</span></li>{% endfor %}
     </ul>
   </div>
 </section>

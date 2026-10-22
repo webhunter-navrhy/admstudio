@@ -167,11 +167,35 @@
    "typ": "odstavec",
    "text": "If you disable this cookie, we will not be able to save your preferences. This means that every time you visit this website you will need to enable or disable cookies again.",
    "zdroj": "https://www.admstudio.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "ADM Repro vyrobilo přes 35 000 závěrečných prací; jsme digitální tiskárna založená v roce 2000",
+   "zdroj": "https://www.admstudio.cz/zaverecne-prace/ a /o-nas/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Objednávka do 14:00 hotová do druhého pracovního dne; vnitřní obsah 7 Kč barevná, 1 Kč černobílá stránka",
+   "zdroj": "https://www.admstudio.cz/zaverecne-prace/ (Nejčastější dotazy)"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Adresa: A.D.M. reprografické studio, Martin Rozvadovský, Zahradní 1471/1, 702 00 Ostrava – Moravská Ostrava",
+   "zdroj": "https://www.admstudio.cz/o-nas/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Otevírací doba Po–Čt 9–12, 12:30–16, Pá 9–12, 12:30–15, So–Ne zavřeno",
+   "zdroj": "https://www.admstudio.cz/o-nas/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Maloformát do 450×320 mm, papíry 80–350 g; velkoformát do šíře role 1067 mm, délka až 5 m; skenování velkých formátů do šíře 914 mm; plátno od 20×60 do cca 90×200 cm; razítka Trodat",
+   "zdroj": "https://www.admstudio.cz/cenik-aktualni/"
   }
  ],
  "chybi": [
   "IČO",
-  "adresa / provozovna",
   "potvrzení služeb a ceníku (nic nevymýšlet)"
  ],
  "popis_webu": ""

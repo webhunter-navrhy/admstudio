@@ -1,0 +1,17 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Sekce Závěrečné práce (PC buňky 1–2, mobil buňka 2): tmavý navy pás se třemi statistikami s levou linkou (35 000+, do 14:00, 7 Kč / 1 Kč) je zakázaný vzor „tmavý pruh se statistikami“. Navíc žádné z těch čísel ani adresa a jméno Martin Rozvadovský nejsou v brief.json. Oprava: čísla a ceny dohledat na admstudio.cz a zapsat do briefu i se zdrojem, nedoložené smazat. Sekci předělat na světlý „zakázkový list“ na papírovém podkladu s ořezovými značkami a s ceníkem vazeb a tisku jako jednoduchou tabulkou. CTA „Objednat závěrečnou práci“ ponechat.",
+    "Služby (PC buňky 2–3, mobil 3–4): osm stejných bílých karet s barevnou horní linkou a drobným šedým textem (asi 12 px na PC) působí jako „obdélníčky“ a CMYK koncept z hero se tu ztrácí. Oprava: Závěrečné práce dát jako velkou kartu přes 2 sloupce s CTA. Ostatní služby převést na řádkový seznam s CMYK tečkou a údajem o formátu (A4–450×320, šíře 1067 mm, 914 mm), popisy zvětšit na 15–16 px. Kartám nechat jen jemnou linku, ne čtyři barvy pruhů.",
+    "Hlavička a Reference (všechny buňky, PC buňka 4, mobil 5–6): logo ADM REPRO studio je vysoké jen asi 30 px, takže nápisy REPRO a studio jsou nečitelné. Oprava: logo zvětšit na 48–56 px na PC a 44 px na mobilu. Loga referencí jsou zčásti barevná a zčásti šedá a logo VŠB-TUO je skoro neviditelné. Oprava: všechna sjednotit do černobílé a na stejnou optickou výšku, mezi nimi vzdušná mřížka bez rámečků."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Koncept vychází z oboru: CMYK kruhy a ořezové značky v hero, v barvách loga (navy, azurová, růžová)",
+    "Světlý papírový podklad, jasná hierarchie (Space Grotesk + Inter), diakritika bez chyb",
+    "Hned je jasné, co a kde firma dělá. CTA „Objednat online“ je výrazné, kontakt má adresu, otevírací dobu a formulář",
+    "Mobil bez přetečení, čitelné texty a dostatečně velké dotykové prvky"
+  ],
+  "verdikt": "Čisté a pravdivě působící, ale mimo hero je to šablona: navy pás se statistikami a osm stejných karet, koncept tiskového archu se dál neprojevuje. Navíc jsou čísla a adresa bez opory v briefu. Opravit sekce Závěrečné práce a Služby, čísla doložit, na mobilu dát nadpis H1 před kruhy, pak je to na 8.",
+  "_hash": "84c0086ca44ed517fce067bbb6a68ea8454ffa3e"
+}

@@ -1,10 +1,44 @@
 [
- {"nazev": "Závěrečné práce", "popis": "Tisk a vazba diplomových, bakalářských i disertačních prací. Horká ražba nebo potištěné desky podle požadavků fakulty.", "znacka": "C"},
- {"nazev": "Maloformátový tisk a kopírování", "popis": "Vizitky, letáky, brožury, pozvánky, diplomy, štítky pro e-shopy. Papíry 80–350 g, formát do 450×320 mm.", "znacka": "M"},
- {"nazev": "Velkoformátový tisk", "popis": "Výkresová dokumentace, plakáty, postery a fotoobrazy do šíře 1067 mm. Tisk na plátno s napnutím na dřevěný rám.", "znacka": "Y"},
- {"nazev": "Skenování", "popis": "Dokumenty do 450×320 mm a velké formáty do šíře 914 mm. Knihy, výkresy, postery, vše na papíře.", "znacka": "K"},
- {"nazev": "Razítka", "popis": "Razítka Trodat s laserově vyrobeným štočkem pro čistý otisk.", "znacka": "C"},
- {"nazev": "Vazby", "popis": "Různé druhy vazeb včetně prémiových, desky chlopňové i tkanicové pro výkresy.", "znacka": "M"},
- {"nazev": "Potisk triček a předmětů", "popis": "Potisk triček, hrnků a dalších předmětů.", "znacka": "Y"},
- {"nazev": "Pronájem strojů", "popis": "Pronájem kopírovacích a tiskových strojů.", "znacka": "K"}
+ {
+  "nazev": "Maloformátový tisk a kopírování",
+  "popis": "Vizitky, letáky, brožury, pozvánky, diplomy, štítky pro e-shopy. Papíry 80–350 g, formát do 450×320 mm.",
+  "znacka": "M",
+  "format": "do 450×320 mm"
+ },
+ {
+  "nazev": "Velkoformátový tisk",
+  "popis": "Výkresová dokumentace, plakáty, postery a fotoobrazy do šíře 1067 mm. Tisk na plátno s napnutím na dřevěný rám.",
+  "znacka": "Y",
+  "format": "šíře až 1067 mm"
+ },
+ {
+  "nazev": "Skenování",
+  "popis": "Dokumenty do 450×320 mm a velké formáty do šíře 914 mm. Knihy, výkresy, postery, vše na papíře.",
+  "znacka": "K",
+  "format": "do 450×320 / šíře 914 mm"
+ },
+ {
+  "nazev": "Razítka",
+  "popis": "Razítka Trodat s laserově vyrobeným štočkem pro čistý otisk.",
+  "znacka": "C",
+  "format": "Trodat"
+ },
+ {
+  "nazev": "Vazby",
+  "popis": "Různé druhy vazeb včetně prémiových, desky chlopňové i tkanicové pro výkresy.",
+  "znacka": "M",
+  "format": "prémiové i klasické"
+ },
+ {
+  "nazev": "Potisk triček a předmětů",
+  "popis": "Potisk triček, hrnků a dalších předmětů.",
+  "znacka": "Y",
+  "format": "trička, hrnky"
+ },
+ {
+  "nazev": "Pronájem strojů",
+  "popis": "Pronájem kopírovacích a tiskových strojů.",
+  "znacka": "K",
+  "format": "kopírky a tiskárny"
+ }
 ]
